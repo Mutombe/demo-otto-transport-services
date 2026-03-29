@@ -169,7 +169,7 @@ const siteData = {
   reviews: {
     heroTitle: [{ text: "Client " }, { text: "Reviews", highlight: true }],
     heroSubtitle: "Real feedback from businesses across Zimbabwe and the region who trust Otto Transport with their freight.",
-    ratingBreakdown: [{ stars: 5, count: 22 }, { stars: 4, count: 9 }, { stars: 3, count: 3 }, { stars: 2, count: 0 }, { stars: 1, count: 0 }],
+    ratingBreakdown: { 5: 22, 4: 9, 3: 3, 2: 0, 1: 0 },
     items: [
       { name: "Farai Mupfumira", role: "Supply Chain Manager, OK Zimbabwe", text: "Otto Transport handles our weekly FMCG distribution to 40+ stores. Their on-time rate is 98% and their drivers are professional. They have become an integral part of our supply chain.", rating: 5, date: "1 month ago", project: "Retail Distribution" },
       { name: "Peter Nyathi", role: "Mine Manager, Mimosa Mining", text: "We have a long-term ore haulage contract with Otto. Fleet availability is excellent and the GPS tracking gives us full visibility on every load. Reliable partner for mining operations.", rating: 4, date: "2 months ago", project: "Mining Haulage" },
